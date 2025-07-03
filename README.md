@@ -105,12 +105,11 @@ All categories: `0.0%`
 - virtualenv (recommended)
 
 ```bash
-
 # 1. Clone the repo
 git clone https://github.com/Sayan-Mondal2022/comment_toxicity_classifier.git
 cd comment_toxicity_classifier
 
-# 2. Create virtual environment
+# 2. Create a virtual environment
 python -m venv venv
 source venv/bin/activate  # or venv\Scripts\activate on Windows
 
@@ -121,12 +120,11 @@ pip install -r requirements.txt
 # Open and run the cells in the notebook to train the BERT model
 # and save the final model as a folder 'bert_toxic_model_saved'
 
-jupyter notebook model.ipynb
+Jupyter notebook model.ipynb
 
 # 5. Run the Web Application
 # Once the model is saved, start the Flask app
 python app.py
-
 ```
 
 ---
@@ -140,11 +138,12 @@ comment_toxicity_classifier/
 │   └── script.js
 ├── templates/
 │   └── index.html
-├── model.ipynb
 ├── app.py
+├── model.ipynb
 ├── model.py
+├── README.md
 ├── requirements.txt
-└── README.md
+└── train.csv
 ```
 
 ---
