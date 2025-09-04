@@ -1,4 +1,4 @@
-# 🧠 Comment Toxicity Classification System
+# 🧠 MULTI-LABEL TOXICITY CLASSIFICATION SYSTEM
 
 🔍 **Toxicity Classifier** is a BERT-powered web app that detects harmful language in user comments across six categories (insult, threat, etc.).  
 🛠️ Built with TensorFlow for model inference, Flask for backend API, and modern HTML/CSS for intuitive UI.  
