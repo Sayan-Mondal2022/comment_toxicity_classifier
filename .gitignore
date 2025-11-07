@@ -1,3 +1,4 @@
 __pycache__
 .ipynb_checkpoints
 bert_toxic_model_saved
+.venv
