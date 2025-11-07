@@ -1,5 +1,5 @@
 from flask import Flask, request, jsonify, render_template
-from model import Model
+from comment_toxicity_classifier.model import Model
 import logging
 
 app = Flask(__name__)
