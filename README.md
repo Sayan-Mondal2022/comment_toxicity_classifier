@@ -4,7 +4,6 @@
 🛠️ Built with TensorFlow for model inference, Flask for backend API, and modern HTML/CSS for intuitive UI.  
 🚀 Designed to help moderate online content with adjustable sensitivity thresholds and real-time analysis.
 
----
 
 ## 🖥️ User Interface Overview
 
@@ -24,7 +23,6 @@ The Toxicity Detection web application features a clean and intuitive interface:
 
 This UI is designed to provide immediate feedback on whether a comment contains toxic language and, if so, in what form.
 
----
 
 ## 🔍 Demo
 
@@ -50,7 +48,6 @@ This UI is designed to provide immediate feedback on whether a comment contains 
 
 **Note:** This example is used solely for demonstration purposes to show the model's ability to identify harmful content and flag violations of standard community guidelines.
 
----
 
 ### 2️⃣ Example: Non-Toxic Comment
 
@@ -67,7 +64,6 @@ All categories: `0.0%`
 
 > 🟢 *This comment is respectful and free of any toxic or abusive language.*
 
----
 
 ## 🎯 Features
 - 🔍 Detects multiple toxicity types:
@@ -81,7 +77,6 @@ All categories: `0.0%`
 - ⚡ Real-time prediction with probability breakdown
 - 🎨 Clean, responsive web interface
 
----
 
 ## 💡 How It Works
 1. The system uses a BERT model fine-tuned on the Jigsaw Toxic Comment dataset
@@ -95,7 +90,6 @@ All categories: `0.0%`
 - 🌐 Flask for backend API
 - 🎨 HTML/CSS/JavaScript for frontend
 
----
 
 ## 🛠️ Setup Instructions
 
@@ -127,7 +121,6 @@ Jupyter notebook model.ipynb
 python app.py
 ```
 
----
 
 ## 🗂 Project Structure
 
@@ -146,11 +139,10 @@ comment_toxicity_classifier/
 └── train.csv
 ```
 
----
 
 ## 🙌 Acknowledgements
 
 - Jigsaw & Google for the dataset.
 - HuggingFace Transformers for pretrained BERT.
 
----
+⭐ *Thank you for taking the time to explore my project! If you found it helpful, please consider giving it a star on GitHub — it truly motivates me to create more!* 🚀
